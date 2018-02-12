@@ -1,8 +1,8 @@
 Yii2 SMS extension
 ==================
-[![Latest Stable Version](https://poser.pugx.org/omnilight/yii2-sms/v/stable)](https://packagist.org/packages/omnilight/yii2-sms)
-[![Total Downloads](https://poser.pugx.org/omnilight/yii2-sms/downloads)](https://packagist.org/packages/omnilight/yii2-sms)
-[![License](https://poser.pugx.org/omnilight/yii2-sms/license)](https://packagist.org/packages/omnilight/yii2-sms)
+[![Latest Stable Version](https://poser.pugx.org/pantera/yii2-sms/v/stable)](https://packagist.org/packages/pantera/yii2-sms)
+[![Total Downloads](https://poser.pugx.org/pantera/yii2-sms/downloads)](https://packagist.org/packages/pantera/yii2-sms)
+[![License](https://poser.pugx.org/pantera/yii2-sms/license)](https://packagist.org/packages/pantera/yii2-sms)
 
 This extension is designed to send sms messages through different services and protocols.
 
@@ -12,7 +12,7 @@ This extension is designed to send sms messages through different services and p
 
 ## Installation
 ```bash
-composer require omnilight/yii2-sms
+composer require pantera/yii2-sms
 ```
 
 ## Configuration
@@ -21,15 +21,15 @@ composer require omnilight/yii2-sms
 'components'    => [
 //...
     'sms'   =>  [
-        'class' => 'omnilight\sms\Sms',
+        'class' => 'pantera\sms\Sms',
         'services'  => [
             // File
             'file'  => [
-                'class' => 'omnilight\sms\services\File'
+                'class' => 'pantera\sms\services\File'
             ],
             // smsonline.ru
             'smsonline' =>  [
-                'class'     =>  'omnilight\sms\services\SmsOnline',
+                'class'     =>  'pantera\sms\services\SmsOnline',
                 'login'     => 'your login',
                 'password'  => 'your password'   
             ],
