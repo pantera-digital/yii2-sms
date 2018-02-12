@@ -6,11 +6,11 @@
  * Time: 17:21
  */
 
-namespace omnilight\sms;
+namespace pantera\sms;
 
 /**
  * Interface SmsServiceInterface
- * @package omnilight\sms
+ * @package pantera\sms
  */
 interface SmsServiceInterface
 {

@@ -1,13 +1,13 @@
 <?php
 
-namespace omnilight\sms;
+namespace pantera\sms;
 
 use yii\base\Component;
 
 
 /**
  * Class Sms
- * @package \omnilight\sms
+ * @package \pantera\sms
  */
 class Sms extends Component
 {

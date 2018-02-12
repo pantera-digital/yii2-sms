@@ -1,16 +1,16 @@
 <?php
 
-namespace omnilight\sms\services;
+namespace pantera\sms\services;
 
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\TransferException;
-use omnilight\sms\SmsServiceInterface;
+use pantera\sms\SmsServiceInterface;
 use yii\base\Component;
 
 
 /**
  * Class SmsOnline
- * @package \omnilight\sms\services
+ * @package \pantera\sms\services
  */
 class SmsOnline extends Component implements SmsServiceInterface
 {
