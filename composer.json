@@ -1,4 +1,4 @@
-c c{
+{
     "name": "pantera/yii2-sms",
     "description": "Sms sending extension",
     "keywords": ["yii2", "sms"],
